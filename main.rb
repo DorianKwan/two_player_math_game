@@ -1,3 +1,3 @@
-require './game.rb'
-require './players.rb'
-require './questions.rb'
+require './game'
+require './players'
+require './questions'
