@@ -9,15 +9,10 @@ class Player
   end
   
   def input_answer
-    define_method(:input) do
-      @input = gets.chomp
-    end  
+    @input = gets.chomp.to_i
   end
 
   def remove_life
-    define_method(:remove_life) do
-      @lives - 1
-    end
+    @lives -= 1
   end    
-end  
-      
+end 
