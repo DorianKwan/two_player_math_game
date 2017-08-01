@@ -5,7 +5,7 @@
   -  Questions
 
 ## Task 2: Write their roles
-  -  Players
+  -  Player
     *  Variable: !Name!
     *  Variable: Player ID
     *  Variable: Lives
@@ -19,7 +19,7 @@
     *  Method: Call question.check, if wrong call player method
     *  Method: Calls for another question
     *  Method: Ends game once a player has lost all lives
-  -  Questions
+  -  Question
     *  Method: Randomly generate a question
     *  Method: question.check
     *  Variable: Question
