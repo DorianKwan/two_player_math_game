@@ -4,7 +4,7 @@ class Question
 
   def initialize
     @question = make_question
-    @answer   = question_answer
+    @answer   = @x + @y
   end
   
   def make_question
@@ -12,8 +12,4 @@ class Question
     @y = Random.rand(20).round
     question = "What does #{x} plus #{y} equal?"
   end  
-
-  def question_answer
-    @x + @y
-  end
 end  
