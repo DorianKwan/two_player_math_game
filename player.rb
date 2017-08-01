@@ -3,7 +3,7 @@ class Player
   attr_reader :name, :player_id
   attr_writer :lives
 
-  initialize(name)
+  def initialize(name)
     @name       = name
     @player_id  = Random.rand(100)
     @lives      = 3
