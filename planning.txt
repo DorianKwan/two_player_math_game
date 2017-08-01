@@ -1,0 +1,26 @@
+
+## Task 1: Extract Nouns for Classes
+  -  Players
+  -  Game
+  -  Questions
+
+## Task 2: Write their roles
+  -  Players
+    *  Variable: !Name!
+    *  Variable: Player ID
+    *  Variable: Lives
+    *  Method: Answer Input
+    *  Method: Remove one life
+  -  Game
+    *  Variable: !Two Players!  
+    *  Method: Initialize Questions
+    *  Method: Whos turn is it?
+    *  Method: Prompt Question
+    *  Method: Call question.check, if wrong call player method
+    *  Method: Calls for another question
+    *  Method: Ends game once a player has lost all lives
+  -  Questions
+    *  Method: Randomly generate a question
+    *  Method: question.check
+    *  Variable: Question
+    *  Variable: Answer
