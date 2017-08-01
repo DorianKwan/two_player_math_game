@@ -7,12 +7,12 @@
 ## Task 2: Write their roles
   -  Player
     *  Variable: !Name!
-    *  Variable: Player ID
     *  Variable: Lives
     *  Method: Answer Input
     *  Method: Remove one life
   -  Game
-    *  Variable: !Two Players!  
+    *  Variable: !Two Players!
+    *  Variable: Turn  
     *  Method: Initialize Questions
     *  Method: Whos turn is it?
     *  Method: Prompt Question
