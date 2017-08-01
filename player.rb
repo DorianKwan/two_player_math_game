@@ -8,7 +8,7 @@ class Player
     @lives      = 3
   end
   
-  def input_answer
+  def answer_input
     @input = gets.chomp.to_i
   end
 
