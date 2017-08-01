@@ -1,6 +1,6 @@
 class Question
   
-  attr_reader :question, :answer, :x, :y
+  attr_reader :prompt, :answer, :x, :y
 
   def initialize
     @prompt = make_question
