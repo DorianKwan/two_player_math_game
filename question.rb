@@ -3,7 +3,7 @@ class Question
   attr_reader :question, :answer, :x, :y
 
   def initialize
-    @question = make_question
+    @prompt = make_question
     @answer   = @x + @y
   end
   
