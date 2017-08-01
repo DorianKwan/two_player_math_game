@@ -1,17 +1,16 @@
 class Player
 
-  attr_reader :name, :player_id
+  attr_reader :name, :player_id, :input
   attr_writer :lives
 
-  def initialize(name)
+  def initialize name
     @name       = name
-    @player_id  = Random.rand(100)
     @lives      = 3
   end
   
   def input_answer
     define_method(:input) do
-      input
+      @input = gets.chomp
     end  
   end
 
@@ -21,5 +20,4 @@ class Player
     end
   end    
 end  
-
       
